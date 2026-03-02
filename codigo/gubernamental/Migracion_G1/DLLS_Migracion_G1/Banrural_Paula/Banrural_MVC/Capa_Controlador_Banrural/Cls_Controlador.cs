@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-using Capa_Modelo_Banrural;
+using Capa_Modelo_Banrural; //Referencia Capa Modelo Paula Daniela Leonardo Paredes 0901-22-9580
 
 namespace Capa_Controlador_Banrural
 {

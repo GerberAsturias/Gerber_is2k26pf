@@ -243,17 +243,19 @@ namespace Capa_Vista_Banrural //Paula Leonardo 0901-22-9580
 
             if (ok == 1)
             {
-                DialogResult dr = MessageBox.Show(
-                    "Boleta Pagada.\n¿Desea imprimir la boleta?",
-                    "Pago",
-                    MessageBoxButtons.YesNo,
+                MessageBox.Show(
+                    "Se ha pagado con éxito el pasaporte.",
+                    "Pago realizado",
+                    MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
 
-                if (dr == DialogResult.Yes)
-                {
-                    // ImprimirBoleta(); // Hacer despues
-                }
+                MessageBox.Show(
+                    $"Su número de boleta es: {noBoleta}",
+                    "Número de Boleta",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                );
             }
             else
             {

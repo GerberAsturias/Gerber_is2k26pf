@@ -41,8 +41,8 @@ namespace Capa_Vista_TipoInve
                  "Tipo de Inventario"
              };
 
-            int id_aplicacion = 401;
-            int id_modulo = 7;
+            int id_aplicacion = 712;
+            int id_modulo = 5;
 
             navegador1.IPkId_Aplicacion = id_aplicacion;
             navegador1.IPkId_Modulo = id_modulo;
